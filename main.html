@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WarShooter</title>
+    <script type="module" src="scripts/pages/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/styles/style.css"/>
+</head>
+<body>
+    <div>
+
+        <canvas id="canvasGame"></canvas>
+        <div id="info">
+            <p id="level"> Level: 1</p>
+            <p id="score"> Score: 0</p>
+            <p id="coins"> Coins: 0</p>
+            <label for="HPpanel" id="hp">100%</label>
+            <canvas id="HPpanel"></canvas>
+        </div>
+
+        <div id="levelNew" class="levelPicture" style="background: burlywood; visibility: hidden;">
+            <h1> NEW LEVEL </h1>
+        </div>
+
+        <div>
+            <img id="sound" src="./public/images/soundOff.png">
+        </div>
+
+      <!--  <div id="gameOverBlock" style="visibility: hidden;">
+            <h1 id="gameOver">  </h1>
+        </div> -->
+
+    </div>
+</body>
+</html>

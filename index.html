@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Running cat </title>
+    <script type="module" src="scripts/pages/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/styles/style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div id="background">
+    </div>
+
+   <!-- <div id="startPanel">
+        <form action="main.html" method="get" >
+            <p class="startText"> Enter your name </p>
+            <input id="gamerName" type="text" placeholder="Name" >
+            <p></p>
+            <input id="Button" type="submit" value="Start game" disabled >
+        </form>
+    </div> -->
+
+    <div id="startPanel" class="w3-card-4" style="text-align: center">
+        <div class="w3-container w3-teal">
+            <h2> Enter your name </h2>
+        </div>
+        <form class="w3-container" action="main.html" method="get">
+                <input id="gamerName" type="text"
+                       class="w3-input w3-border w3-sand"
+                       placeholder="Name" ></p>
+
+            <button id="Button" type="submit" value="Start game"
+                    class="w3-button w3-teal w3-center"> Register</button>
+        </form>
+    </div>
+
+    <div>
+        <img id="sound" src="./public/images/soundOff.png">
+    </div>
+
+</body>
+</html>
